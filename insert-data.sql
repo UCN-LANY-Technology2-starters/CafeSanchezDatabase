@@ -1,8 +1,6 @@
 USE [CafeSanchez]
 GO 
 
-SET IDENTITY_INSERT Products ON 
-
 INSERT INTO Products ([Id], [Name], [Description], [Price]) VALUES (1, 'Americano', 'Espresso shots topped with hot water create a light layer of crema culminating in this wonderfully rich cup with depth and nuance.', 22.50);
 INSERT INTO Products ([Id], [Name], [Description], [Price]) VALUES (2, 'Dark Roast Coffee', 'This full-bodied dark roast coffee with bold, robust flavors showcases our roasting and blending artistry—an essential blend of balanced and lingering flavors.', 32.50);
 INSERT INTO Products ([Id], [Name], [Description], [Price]) VALUES (3, 'Misto', 'A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.', 32.50);
@@ -13,4 +11,3 @@ INSERT INTO Products ([Id], [Name], [Description], [Price]) VALUES (7, 'Cinnamon
 INSERT INTO Products ([Id], [Name], [Description], [Price]) VALUES (8, 'Flat White', 'Smooth ristretto shots of espresso get the perfect amount of steamed whole milk to create a not-too-strong, not-too-creamy, just-right flavor.', 29.50);
 INSERT INTO Products ([Id], [Name], [Description], [Price]) VALUES (9, 'Caramel Macchiato', 'Freshly steamed milk with vanilla-flavored syrup marked with espresso and topped with a caramel drizzle for an oh-so-sweet finish.', 29.50);
 
-SET IDENTITY_INSERT Products OFF
